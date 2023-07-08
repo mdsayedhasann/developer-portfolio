@@ -137,3 +137,11 @@ main{
 .about-info{
     text-align: center;
 }
+
+
+/* What I DO Style */
+
+.what-i-do-description {
+    padding: 30px 150px;
+    padding-top: 0;
+}
