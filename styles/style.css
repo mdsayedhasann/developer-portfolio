@@ -16,6 +16,9 @@ h3 {
 .header {
     background-color: #FEF7F3;
     padding: 0 100px;
+    background-image: url(../assets/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 nav {
@@ -48,6 +51,11 @@ nav a {
 
 }
 
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+
 .primary-color {
     color: #FD6E0A;
 }
@@ -65,6 +73,7 @@ nav a {
 .banner {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner-greetings {
@@ -92,6 +101,39 @@ nav a {
 
 
 .banner-image img {
-    width: 500px;
+    /* width: 500px; */
 
+
+}
+
+/* About Section Style */
+.about {
+    background-color: #FEF7F3;
+    padding: 130px;
+    margin: 40px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 30px 0;
+}
+
+.section-description {
+    text-align: center;
+    color: #757575;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+.about-info{
+    text-align: center;
 }
