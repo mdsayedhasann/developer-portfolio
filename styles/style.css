@@ -234,3 +234,19 @@ nav a {
 .download-cv-btn{
     text-align: center;
 }
+
+
+/* Footer Style */
+footer{
+    display: flex;
+    /* justify-content: space-around ; */
+    background: #FFF8F3;
+    padding: 100px 100px;
+}
+.footer-column{
+    width:50%
+    text-align: left;
+}
+.title-align-left{
+    text-align: left;
+}
