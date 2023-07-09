@@ -30,7 +30,7 @@ main {
 
 .header {
     background-color: #FEF7F3;
-    padding: 10px 280px;
+    padding: 10px 150px;
     background-image: url(../assets/images/header_bg.png), url('../assets/images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, top left;
