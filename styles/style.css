@@ -244,9 +244,22 @@ footer{
     padding: 100px 100px;
 }
 .footer-column{
-    width:50%
+    width:50%;
     text-align: left;
 }
 .title-align-left{
     text-align: left;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    width: 65%;
+    color: #757575;
 }
